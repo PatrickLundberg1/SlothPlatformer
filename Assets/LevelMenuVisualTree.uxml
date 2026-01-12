@@ -1,0 +1,6 @@
+<ui:UXML xmlns:ui="UnityEngine.UIElements" xmlns:uie="UnityEditor.UIElements" editor-extension-mode="False">
+    <Style src="project://database/Assets/MenuStyleSheet.uss?fileID=7433441132597879392&amp;guid=f6d4e1238dc134c419161b70f90fd0a8&amp;type=3#MenuStyleSheet" />
+    <Style src="project://database/Assets/SlothMenu.uss?fileID=7433441132597879392&amp;guid=41a117337745e274287fb587048395ef&amp;type=3#SlothMenu" />
+    <ui:Label text="Level Complete!" enabled="true" name="LevelCompleteText" class="Title" style="top: -2%; left: 20%; width: 60%; height: 20%; display: none; visibility: visible;" />
+    <ui:Button text="Return to Main Menu" name="MainMenuButton" class="button" style="left: 20%; top: 50%; width: 60%; height: 15%; display: none;" />
+</ui:UXML>

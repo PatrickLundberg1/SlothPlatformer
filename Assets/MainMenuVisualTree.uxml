@@ -1,0 +1,5 @@
+<ui:UXML xmlns:ui="UnityEngine.UIElements" xmlns:uie="UnityEditor.UIElements" editor-extension-mode="False">
+    <Style src="project://database/Assets/SlothMenu.uss?fileID=7433441132597879392&amp;guid=41a117337745e274287fb587048395ef&amp;type=3#SlothMenu" />
+    <ui:Label text="Action Sloth!" name="GameNameText" class="Title" style="top: -2%; left: 20%; width: 60%; height: 20%;" />
+    <ui:Button text="Start Game" name="StartButton" class="button" style="left: 20%; top: 30%; width: 60%; height: 10%;" />
+</ui:UXML>

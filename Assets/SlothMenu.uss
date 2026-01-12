@@ -1,0 +1,30 @@
+:root {
+}
+
+.Title {
+    background-image: url("project://database/Assets/2D%20Simple%20Adventure%20GUI%20Pack/GUI/menu_header_bg.png?fileID=2800000&guid=791ad8ea2e7a4a846956207a3baca93d&type=3#menu_header_bg");
+    -unity-text-align: lower-center;
+    padding-bottom: 0%;
+    font-size: 100%;
+}
+
+.button {
+    background-image: url("project://database/Assets/2D%20Simple%20Adventure%20GUI%20Pack/GUI/menu_button_bg.png?fileID=2800000&guid=d9f46b08c855c6a448b4385af44c5a73&type=3#menu_button_bg");
+    color: rgb(255, 255, 255);
+    -unity-text-align: middle-center;
+    font-size: 100%;
+    border-left-color: rgb(57, 20, 14);
+    border-right-color: rgb(57, 20, 14);
+    border-top-color: rgb(57, 20, 14);
+    border-bottom-color: rgb(57, 20, 14);
+}
+
+.button:hover {
+    transition-duration: 0.5s;
+    scale: 1.1 1;
+}
+
+.button:active {
+    scale: 0.9 0.9;
+    transition-duration: 0.1s;
+}
